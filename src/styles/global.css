@@ -22,7 +22,7 @@ body{
     color: var(--text);
 }
 body,input,textarea,button{
-    font-size: 400 16px "Inter", sans-serif;
+    font: 400 16px 'Inter', sans-serif;
 }
 button{
     cursor: pointer;
