@@ -7,7 +7,7 @@
     flex-direction: column;
 }
 .container section{
-    margin-top: 1.5rem;
+    margin-top: 3rem;
     flex: 1;
     display: grid;
     grid-template-columns: 1fr 1fr;
