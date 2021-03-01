@@ -17,3 +17,12 @@
 .completedChallengesContainer span:last-child{
     font-size: 1.5rem;
 }
+/* Responsividade para o os desafios completos */
+@media(max-width:720px){
+    .completedChallengesContainer span:first-child{
+        font-size: 1.10rem;
+    }
+    .completedChallengesContainer span:last-child{
+        font-size: 1.10rem;
+    }
+}

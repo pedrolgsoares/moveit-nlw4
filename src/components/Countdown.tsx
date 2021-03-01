@@ -19,12 +19,15 @@ export function Countdown() {
   return (
     <div>
       <div className={styles.countdownContainer}>
-        <div>
+
+        <div className={styles.minLeft}>
           <span>{minuteLeft}</span>
           <span>{minuteRight}</span>
         </div>
+
         <span>:</span>
-        <div>
+
+        <div className={styles.secRight}>
           <span>{secondLeft}</span>
           <span>{secondRight}</span>
         </div>

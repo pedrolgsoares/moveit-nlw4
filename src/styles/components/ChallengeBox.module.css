@@ -85,3 +85,57 @@
 .challengeActive footer button:hover{
     filter: brightness(0.9)
 }
+/* Responsividade do Box de desafios */
+@media(max-width:720px){
+    .challengeBoxContainer{
+        margin-top: -60px;
+        height: 200px;
+        width: 200px;
+        background-color:var(--white);
+        border-radius: 5px;
+        box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+        padding: 1.5rem 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .challengeNotActive strong{
+        font-size: 1.0rem;
+        font-weight: 400;
+        line-height: 1.0;
+    }
+    .challengeNotActive p{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 1.0;
+        max-width: 50%;
+    }
+    .challengeNotActive p img{
+        width: 20px;
+    }
+    .challengeActive header{
+        color: var(--blue);
+        font-weight: 600;
+        font-size: 10px;
+        padding: 0 2rem 1.5rem;
+    }
+    .challengeActive main img {
+        width: 40px;
+    }
+    .challengeActive  main strong{
+        font-size: 10px;
+        font-weight:600;
+        color: var(--title);
+        margin: 1.5rem 0 1rem;
+    }
+    .challengeActive main p{
+        font-size: 8px;
+    }
+    .challengeActive footer button{
+        margin-top: 10px;
+        height: 20px;
+    }
+}
