@@ -1,6 +1,28 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Version 1.0:
+  Mobile version:
+  
+  ![responsivo2](https://user-images.githubusercontent.com/65426690/109709675-88b9bd80-7b7b-11eb-899e-f31147e0ed45.png)
+  
+  Desktop version:
+  
+  ![tela](https://user-images.githubusercontent.com/65426690/109709826-ac7d0380-7b7b-11eb-962b-d6b2a073a10b.png)
+
 ## Getting Started
+Before you start:
+The project was created with Typescript it will be necessary to install the following dependencies through the terminal in the project directory with the command
+```
+npm install typescript @ types / react @ types / react-dom @ types / node -D
+ if using yarn, apply:
+yarn add typescript @ types / react @ types / react-dom @ types / node -D
+```
+It may be necessary to install a module for Cookies, run in the terminal:
+```
+npm install typescript js-cookie
+ if using yarn, apply: 
+yarn add typescript js-cookie
+```
 
 First, run the development server:
 
@@ -28,7 +50,6 @@ To learn more about Next.js, take a look at the following resources:
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+ Visit the application at: https://moveit-nlw4-pedrolgsoares.vercel.app/
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
