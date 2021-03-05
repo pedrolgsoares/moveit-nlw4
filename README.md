@@ -1,5 +1,10 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Deploy on Vercel
+ Visit the application at: https://moveit-nlw4-pedrolgsoares.vercel.app/
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
 ## Version 1.0:
   Mobile version:
   
@@ -48,8 +53,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
- Visit the application at: https://moveit-nlw4-pedrolgsoares.vercel.app/
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
