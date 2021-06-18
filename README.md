@@ -1,15 +1,5 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## To do:
-
-- [x] Responsividade
-
-- [ ] Dark-theme
-
-- [ ] Login
-
-- [ ] Rank
-
 
 ## Deploy on Vercel:
  Visit the application at: https://moveit-nlw4-pedrolgsoares.vercel.app/
